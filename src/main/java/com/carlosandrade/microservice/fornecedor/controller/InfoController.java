@@ -1,12 +1,12 @@
-package br.com.alura.microservice.fornecedor.controller;
+package com.carlosandrade.microservice.fornecedor.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.microservice.fornecedor.model.InfoFornecedor;
-import br.com.alura.microservice.fornecedor.service.InfoService;
+import com.carlosandrade.microservice.fornecedor.model.InfoFornecedor;
+import com.carlosandrade.microservice.fornecedor.service.InfoService;
 
 @RestController
 @RequestMapping("/info")

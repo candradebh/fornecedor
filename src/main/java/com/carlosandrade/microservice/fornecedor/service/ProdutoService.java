@@ -1,12 +1,12 @@
-package br.com.alura.microservice.fornecedor.service;
+package com.carlosandrade.microservice.fornecedor.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.microservice.fornecedor.model.Produto;
-import br.com.alura.microservice.fornecedor.repository.ProdutoRepository;
+import com.carlosandrade.microservice.fornecedor.model.Produto;
+import com.carlosandrade.microservice.fornecedor.repository.ProdutoRepository;
 
 @Service
 public class ProdutoService {

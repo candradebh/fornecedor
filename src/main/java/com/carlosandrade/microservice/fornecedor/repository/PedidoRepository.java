@@ -1,8 +1,8 @@
-package br.com.alura.microservice.fornecedor.repository;
+package com.carlosandrade.microservice.fornecedor.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.alura.microservice.fornecedor.model.Pedido;
+import com.carlosandrade.microservice.fornecedor.model.Pedido;
 
 public interface PedidoRepository extends CrudRepository<Pedido, Long>{
 

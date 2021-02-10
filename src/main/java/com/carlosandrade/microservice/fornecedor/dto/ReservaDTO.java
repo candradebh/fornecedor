@@ -1,4 +1,4 @@
-package br.com.alura.microservice.fornecedor.dto;
+package com.carlosandrade.microservice.fornecedor.dto;
 
 public class ReservaDTO {
 

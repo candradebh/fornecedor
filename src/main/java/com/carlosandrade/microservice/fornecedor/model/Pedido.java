@@ -1,4 +1,4 @@
-package br.com.alura.microservice.fornecedor.model;
+package com.carlosandrade.microservice.fornecedor.model;
 
 import java.util.List;
 

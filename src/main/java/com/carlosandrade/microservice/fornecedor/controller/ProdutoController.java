@@ -1,4 +1,4 @@
-package br.com.alura.microservice.fornecedor.controller;
+package com.carlosandrade.microservice.fornecedor.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.microservice.fornecedor.model.Produto;
-import br.com.alura.microservice.fornecedor.service.ProdutoService;
+import com.carlosandrade.microservice.fornecedor.model.Produto;
+import com.carlosandrade.microservice.fornecedor.service.ProdutoService;
 
 @RestController
 @RequestMapping("/produto")
